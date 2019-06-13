@@ -1,1 +1,1 @@
-# elements-of-programming-interviews
+# Elements of programming interviews in Python
