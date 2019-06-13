@@ -1,0 +1,11 @@
+{
+    "python.venvPath": "C:\\Users\\hcarl\\source\\envs",
+    "python.pythonPath": "C:\\Users\\hcarl\\source\\envs\\epi\\Scripts\\python.exe",
+    "python.testing.pyTestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pyTestEnabled": true,
+    "python.formatting.provider": "yapf"
+}
