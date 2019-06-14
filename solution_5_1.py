@@ -29,6 +29,10 @@ def dnf_partition(A, i):
     """
     Slightly more intelligent solution, which partitions in-place. 
     O(1) extra memory required.
+    Keeps a list of smaller elements starting from index 0, 
+        larger elements starting from the end of the list, 
+        and a list of elements equal to the pivot somewhere in the middle,
+        possibly padded by unclassified elements on either side. 
     """
 
     num_equal_elements = 1

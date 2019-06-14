@@ -1,3 +1,4 @@
+""" Interconvert between strings and integers """
 
 char_int_mapping = {
     "0": 0,
@@ -37,9 +38,10 @@ def string_to_int(s):
         if char == "-":
             output_int *= -1
         else:
-            output_int += char_int_mapping[char] * 10 ** index
-    
+            output_int += char_int_mapping[char] * 10**index
+
     return output_int
+
 
 def int_to_string(i):
     """
@@ -58,5 +60,5 @@ def int_to_string(i):
         next_char = int_char_mapping[i % 10]
         reversed_output_chars.append(next_char)
         i //= 10
-    
+
     return "".join(reversed(reversed_output_chars + prefix))

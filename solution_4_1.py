@@ -11,6 +11,8 @@ def parity(x):
     return parity
 
 def parity_64bit(x):
+    # TODO: implement
     pass
+
 
 print(parity(3))
